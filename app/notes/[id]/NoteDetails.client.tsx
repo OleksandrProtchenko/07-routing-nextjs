@@ -7,7 +7,7 @@ import css from "./NoteDetails.module.css";
 import NotePreview from "@/components/NotePreview/NotePreview";
 import { useRouter } from "next/navigation";
 
-export default function NoteDetails() {
+export default function NoteDetailsClient() {
   const { id } = useParams<{ id: string }>();
 
   const router = useRouter();
